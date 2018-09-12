@@ -2,7 +2,6 @@
 
 ⚡️A Simple,fast,Reliable library used for prompting alert dialog. ⚡️
 
-⚡️A Single line of code can add a beautiful alert dialog in your app. ⚡️
 
 <img src="https://github.com/a7mdragab/SimpleDialog/blob/master/simpledialog/src/main/res/drawable/dialog.png"
      alt=""
@@ -62,7 +61,7 @@ SimpleDialog.Initialize(this,"This is Alert Dialog")
                 .setIcon(R.drawable.ic_menu_slideshow)
                 .setNegativeButton("Noooooooooo")
                 .setPositiveButton("Yeeeeeeeees")
-                .setCancelButton("Cencel")
+                .setCancelButton("Cancel")
                 .setAlertCallback(new SimpleDialog.AlertDialogCallback() {
                     @Override
                     public void onYesClicked() {
