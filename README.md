@@ -59,8 +59,8 @@ SimpleDialog.Initialize(this,"This is Alert Dialog")
                 .setTitle("AlertDialog")
                 .setCancelable(false)
                 .setIcon(R.drawable.ic_menu_slideshow)
-                .setNegativeButton("Noooooooooo")
-                .setPositiveButton("Yeeeeeeeees")
+                .setNegativeButton("No")
+                .setPositiveButton("Yes")
                 .setCancelButton("Cancel")
                 .setAlertCallback(new SimpleDialog.AlertDialogCallback() {
                     @Override
